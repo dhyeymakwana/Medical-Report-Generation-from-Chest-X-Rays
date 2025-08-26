@@ -16,8 +16,8 @@ This project implements a state-of-the-art multimodal architecture that combines
 
 ## ✨ Key Features
 
-- **Vision Encoder**: Uses a pre-trained Vision Transformer (`ViT-Tiny`) to extract a rich sequence of features from chest X-ray images.
-- **Language Model**: Leverages a powerful, pre-trained LLM (`EleutherAI/gpt-neo-125M`) as the text generation engine.
+- **Vision Encoder**: Uses a pre-trained Vision Transformer (`vit_base_patch16_224_in21k`) to extract a rich sequence of features from chest X-ray images.
+- **Language Model**: Leverages a powerful, pre-trained LLM (`TinyLlama-1.1B-Chat-v1.0`) as the text generation engine.
 - **Efficient Fine-Tuning**: Employs **LoRA (Low-Rank Adaptation)** to efficiently fine-tune the LLM for the medical domain without retraining the entire model.
 - **Robust Data Pipeline**: Includes automated preprocessing, cleaning, and augmentation for both image and text data.
 - **Advanced Training**: The training loop uses modern techniques like the **AdamW optimizer**, a **cosine learning rate scheduler**, and **automatic mixed-precision** for stable and efficient training.
